@@ -12,7 +12,7 @@ This repository implements **MIND**, a powerful recommendation model originally 
 -  Embedding and MLP layers with ReLU activation
 -  Loss: `BCELoss`
 -  Evaluation metrics: Recall@K, Validation Loss
--  Modular design using PyTorch Lightning (clean training loop & logging)
+-  Modular design using PyTorch Lightning
 
 ---
 
@@ -40,8 +40,10 @@ python MIND1.py
 ## 📈 Performance
 | Metric  | Value  |
 |---------|--------|
-| Training loss | 0.584 |
-| Val loss | 0.594 |
+| Training loss | 0.416 |
+| Val acc | 83.92 % |
+| HR@50 | 0.104 |
 
+![Out1](res.png)
 
 
